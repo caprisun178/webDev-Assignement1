@@ -1,0 +1,55 @@
+/* Index page styling*/
+
+#indexh1{    
+    text-align: center;
+    background-color: lightpink;
+}
+
+p{
+    font-size: large;
+    font-family: Arial;
+}
+
+.locationHeader{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+}
+
+.locationContainer{
+    padding: 1rem;
+    background-color:antiquewhite ;
+}
+
+.locationContext{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.locationImages{
+    width: 250px;
+    height: auto;
+}
+
+/* Destination Page styling*/
+
+.destintionHeaders{
+    text-decoration: underline;
+    
+}
+
+#destinationBody{
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond;
+}
+
+#overview {
+
+}
+
+#testimonial{
+    font-style: italic;
+    background-color: #ffffa8;
+}
