@@ -42,12 +42,12 @@ blockquote {
 }
 
 /* Header and Favorite styling */
-#favIcon{
+#fav-icon{
     width: 35px;
     height: 32px;
 }
 
-#HeaderDiv{
+#header-div{
     align-items: center;
     display: flex;
     justify-content: center;
