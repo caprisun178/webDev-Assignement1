@@ -1,55 +1,53 @@
-/* Index page styling*/
 
-#indexh1{    
-    text-align: center;
-    background-color: lightpink;
+
+body {
+  background-color: white;
+  color: #404040;
+  font-size: 11pt;
+  font-family: Georgia, Garamond, serif;
+
+  background-image: url("images/bg.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
-p{
-    font-size: large;
-    font-family: Arial;
+/* headings */
+h1 {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #A4A400;
 }
 
-.locationHeader{
-    text-align: center;
-    font-size: x-large;
-    color: black;
+h2 {
+  text-align: left;
+  font-size: 18pt;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #A4A400;
 }
 
-.locationContainer{
-    padding: 1rem;
-    background-color:antiquewhite ;
+/* links */
+a {
+  color: #A4A400;
 }
 
-.locationContext{
+/* testimonial */
+blockquote {
+  font-style: italic;
+  background-color: #FFFFA8;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+#favIcon{
+    width: 35px;
+    height: 32px;
+}
+
+#HeaderDiv{
+    align-items: center;
     display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-}
-
-.locationImages{
-    width: 250px;
-    height: auto;
-}
-
-/* Destination Page styling*/
-
-.destintionHeaders{
-    text-decoration: underline;
-    
-}
-
-#destinationBody{
-    color: #404040;
-    font-size: 11pt;
-    font-family: Georgia, Garamond;
-}
-
-#overview {
-
-}
-
-#testimonial{
-    font-style: italic;
-    background-color: #ffffa8;
+    justify-content: center;
 }
